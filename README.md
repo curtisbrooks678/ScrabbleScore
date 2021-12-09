@@ -1,6 +1,6 @@
-# Currency Exchanger
+# Scrabble Score
 
-#### By Curtis Brooks
+#### By Curtis Brooks and Jacob Wilson
 
 #### This application converts currency amounts from over 150 currencies worldwide.
 
