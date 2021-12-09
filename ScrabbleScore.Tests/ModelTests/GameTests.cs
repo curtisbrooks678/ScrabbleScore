@@ -11,5 +11,11 @@ namespace ScrabbleTime.Tests
     {
       Assert.AreEqual(typeof(int), Game.Score("Test").GetType());
     }
+
+    [TestMethod]
+    public void Score_ReturnPointValueForSingleChar_int()
+    {
+      Assert.AreEqual(5, Game.Score("K"));
+    }
   }
 }
