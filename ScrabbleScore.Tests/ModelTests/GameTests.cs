@@ -9,7 +9,7 @@ namespace ScrabbleTime.Tests
     [TestMethod]
     public void Score_ReturnsInt_int()
     {
-      Assert.AreEqual(typeof(int), Game.Score("Test").GetType());
+      Assert.AreEqual(typeof(int), Game.Score("T").GetType());
     }
 
     [TestMethod]
